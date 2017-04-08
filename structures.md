@@ -34,7 +34,7 @@ References:
 typedef struct // size = 0x170
 {
     // offset 0000 (4 bytes)
-    uint seed;
+    uint32_t seed;
     // offset 0004 (2 bytes)
     uint16_t CF;
     // offset 0008 (4 bytes)
